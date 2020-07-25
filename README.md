@@ -34,6 +34,18 @@
 
 ### Task03 - [基于机器学习的文本分类](/nbs/Task03-基于机器学习的文本分类.ipynb) 
 
+- 文本表示方法 part1：
+  - One-hot：将每一个单词使用一个离散的向量表示，每个字/词编码一个索引，然后根据索引进行赋值
+  - Bag of Words：词袋表示 / 每个文档的字/词用其出现次数 / 用sklearn中`CountVectorizer`实现
+  - N-gram：与Count Vectors类似，加入了相邻单词组合成为新的单词，并进行计数
+  - TF-IDF：词频-逆文档频率
+
+- 基于机器学习的文本分类：
+
+  - **Count Vectors + RidgeClassifier**：0.74
+  
+  - **TF-IDF + RidgeClassifier**：0.87
+
 ### Task04 - [基于深度学习的文本分类1](/nbs/Task04-基于深度学习的文本分类1.ipynb) 
 
 ### Task05 - [基于深度学习的文本分类2](/nbs/Task05-基于深度学习的文本分类1.ipynb) 
