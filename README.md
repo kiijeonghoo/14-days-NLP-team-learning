@@ -44,9 +44,15 @@
 
   - **Count Vectors + RidgeClassifier**：0.74
   
-  - **TF-IDF + RidgeClassifier**：0.87
+  - **TF-IDF + RidgeClassifier**：0.87 / 增加数据后 0.93
 
 ### Task04 - [基于深度学习的文本分类1](/nbs/Task04-基于深度学习的文本分类1.ipynb) 
+
+- 文本表示方法 part2：
+  - FastText：网络结构 - Embedding→GlobalAveragePooling→Softmax / 可以表示句子相似性, 维度低
+
+- 基于深度学习的文本分类：
+  - **FastText**：0.82 / 增加数据后 0.91
 
 ### Task05 - [基于深度学习的文本分类2](/nbs/Task05-基于深度学习的文本分类1.ipynb) 
 
